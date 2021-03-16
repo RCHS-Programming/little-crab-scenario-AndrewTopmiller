@@ -1,37 +1,40 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, and Greenfoot)
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * This class defines a crab. Crabs live on the beach.
+ * Write a description of class Lobster here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
  */
-public class Crab extends Actor
+public class Lobster extends Actor
 {
-    public void act()
+   public void act()
     {
         move();
-        lookForWorm ();
+        lookForCrab ();
         randomTurn();
         turnAtEdge();
     }
     
-    public void move( )
+    public void move()
     {
         move(5);
     }
     
     /*
-     * Check whether we have stumbled upn a worm.
+     * Check whether we have stumbled upn a Crab.
      * If we have,eat it. If not, do nothing.
      */
-    public void lookForWorm()
+    public void lookForCrab()
     {        
-        if ( isTouching(Worm.class) )
+        if ( isTouching(Crab.class) )
         {                
-            removeTouching(Worm.class);        
+            removeTouching(Crab.class);        
         }
     }
     
     /*
-     * make the Crab make random turns left or right
+     * make the Lobster make random turns left or right
      * between 0 and 45 degrees
      */
     public void randomTurn()
@@ -49,5 +52,4 @@ public class Crab extends Actor
             turn(17);
         }
     }
-
 }
