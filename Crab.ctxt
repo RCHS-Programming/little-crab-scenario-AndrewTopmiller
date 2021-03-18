@@ -9,6 +9,5 @@ comment3.params=
 comment3.target=void\ lookForWorm()
 comment3.text=\r\n\ Check\ whether\ we\ have\ stumbled\ upn\ a\ worm.\r\n\ If\ we\ have,eat\ it.\ If\ not,\ do\ nothing.\r\n
 comment4.params=
-comment4.target=void\ randomTurn()
-comment4.text=\r\n\ make\ the\ Crab\ make\ random\ turns\ left\ or\ right\r\n\ between\ 0\ and\ 45\ degrees\r\n
+comment4.target=void\ turnCrab()
 numComments=5
