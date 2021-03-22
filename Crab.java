@@ -5,9 +5,17 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, and Greenfoot)
  */
 public class Crab extends Actor
 {
+    private GreenfootImage image1;
+    private GreenfootImage image2;
+    
+    public Crab()
+    {
+        image1=new GreenfootImage("crab.png");
+        image2=new GreenfootImage("crab.png");
+        setImage(image1);
+    }
     public void act()
     {
-        
         move();
         lookForWorm ();
         turnCrab();

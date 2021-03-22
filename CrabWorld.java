@@ -9,5 +9,19 @@ public class CrabWorld extends World
     public CrabWorld() 
     {
         super(560, 560, 1);
+        addObject(new Crab(), 150,100);
+        addObject(new Lobster(), 400, 300);
+        addObject(new Lobster(), 400, 300);
+        addObject(new Lobster(), 400, 300);
+        addObject(new Worm(),Greenfoot.getRandomNumber (561), Greenfoot.getRandomNumber(561));
+        addObject(new Worm(),Greenfoot.getRandomNumber (561), Greenfoot.getRandomNumber(561));
+        addObject(new Worm(),Greenfoot.getRandomNumber (561), Greenfoot.getRandomNumber(561));
+        addObject(new Worm(),Greenfoot.getRandomNumber (561), Greenfoot.getRandomNumber(561));
+        addObject(new Worm(),Greenfoot.getRandomNumber (561), Greenfoot.getRandomNumber(561));
+        addObject(new Worm(),Greenfoot.getRandomNumber (561), Greenfoot.getRandomNumber(561));
+        addObject(new Worm(),Greenfoot.getRandomNumber (561), Greenfoot.getRandomNumber(561));
+        addObject(new Worm(),Greenfoot.getRandomNumber (561), Greenfoot.getRandomNumber(561));
+        addObject(new Worm(),Greenfoot.getRandomNumber (561), Greenfoot.getRandomNumber(561));
+        addObject(new Worm(),Greenfoot.getRandomNumber (561), Greenfoot.getRandomNumber(561));
     }
 }
