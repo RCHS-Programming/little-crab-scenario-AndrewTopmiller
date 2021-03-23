@@ -12,4 +12,6 @@ comment4.target=void\ lookForWorm()
 comment4.text=\r\n\ Check\ whether\ we\ have\ stumbled\ upn\ a\ worm.\r\n\ If\ we\ have,eat\ it.\ If\ not,\ do\ nothing.\r\n
 comment5.params=
 comment5.target=void\ turnCrab()
-numComments=6
+comment6.params=
+comment6.target=void\ switchImage()
+numComments=7
